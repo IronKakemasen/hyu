@@ -49,8 +49,6 @@ struct Title:SceneBehavior
 	virtual void Render(const Matrix3x3& VPVMat)override
 	{
 		VPVMat;
-		Novice::ScreenPrintf(640, 360, "ClickTo");
-		Novice::ScreenPrintf(640, 360, "Click");
 
 	}
 
